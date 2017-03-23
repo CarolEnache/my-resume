@@ -5,7 +5,16 @@
   },
   "author":{
   "name": "Carol Enache",
-  "title": "Web Developer"
+  "title": "Web Developer",
+  "social": [
+    {
+      "icon":"google-plus2",
+      "url": "https://www.linkedin.com/in/carol-enache-59504294/"
+    },
+    {
+      "icon": "facebook2",
+      "url": "https://www.facebook.com/enache.carol"
+    }]
   }
 
 }
