@@ -2,5 +2,10 @@
   "page":{
     "pageTitle":"Welcome to my resume",
     "pageDescription":"Carol Enache's resume"
+  },
+  "author":{
+  "name": "Carol Enache",
+  "title": "Web Developer"
   }
+
 }
