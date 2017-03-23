@@ -1,20 +1,20 @@
 {
-  "page":{
-    "pageTitle":"Welcome to my resume",
-    "pageDescription":"Carol Enache's resume"
+  "page": {
+    "pageTitle": "Welcome to my awesome resume!",
+    "pageDescription": "You'll be mesmarized by Marian Zburlea's resume"
   },
-  "author":{
-  "name": "Carol Enache",
-  "title": "Web Developer",
-  "social": [
-    {
-      "icon":"google-plus2",
-      "url": "https://www.linkedin.com/in/carol-enache-59504294/"
-    },
-    {
-      "icon": "facebook2",
-      "url": "https://www.facebook.com/enache.carol"
-    }]
+  "author": {
+    "name": "Carol Enache",
+    "title": "Web Developer",
+    "social": [
+      {
+        "icon": "google-plus2",
+        "url": "https://plus.google.com/+ZburleaMarian"
+      },
+      {
+        "icon": "facebook2",
+        "url": "https://www.facebook.com/enache.carol"
+      }
+    ]
   }
-
 }
