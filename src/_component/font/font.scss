@@ -7,6 +7,8 @@
   font-weight: normal;
   font-style: normal;
 }
+// Apply the next declaration to all tags which have a class
+// that starts with resume-icon- or contains resume-icon-
 [class^-"resume-icon-"], [class*=" resume-icon-"]{
   font-family: 'my-resume' !important;
   speak: none;
@@ -20,6 +22,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+// List of font icons
 .resume-icon-google-plus2:before {
   content: "\ea8c"
 }
