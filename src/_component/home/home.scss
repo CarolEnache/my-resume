@@ -6,6 +6,11 @@
 // .#{$class}-item-> .home-item
 $class: 'home';
 
+// Starting with a percentage sign % instead of . or #
+// will not output this to CSS. The advantage is that 
+//we can call this piece of code using @extend and 
+//keep our code DRY with out repeating ourself
+
 %uppercase{
   text-transform: uppercase;
 // Transform all charecters to upper case
