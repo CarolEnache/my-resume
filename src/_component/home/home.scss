@@ -47,8 +47,8 @@ $class: 'home';
 }
 
 .#{$class}-social {
-  // the ul tag has 100% width. We use display inline-flex
-  //so the container no longer breaks in new line
+// the ul tag has 100% width. We use display inline-flex
+//so the container no longer breaks in new line
   display: inline-flex;
 //we use max-width 80 viewport width wich means
 //80% if the width that we can view on the screen
@@ -57,6 +57,9 @@ $class: 'home';
 //width provided by this container break the res of the 
 //content on new line
   flex-wrap: wrap;
+// set the itmes that break on new lines to be align center
+// it's very similar to text-align: center 
+  justify-content: center;
 
 }
 
