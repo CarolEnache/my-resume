@@ -1,7 +1,15 @@
+// Introduce $class variable to hold the value
+// of prefix of all css classes in this file
+
+// Examples:
+// .#{$class} -> .home
+// .#{$class}-item-> .home-item
 $class: 'home';
 
 %uppercase{
   text-transform: uppercase;
+// Transform all charecters to upper case
+// Ex. This is Ultra -> THIS IS ULTRA
 }
 
 .#{$class} {
@@ -21,19 +29,40 @@ $class: 'home';
 }
 
 .#{$class}-item {
+// We create some spacing between list items using padding
+// the first value will apply to padding-top and padding-bottom
+// the second value will apply to padding-right and padding-left
   padding: 0.5rem 0.8rem;
 }
 
 .#{$class}-link {
   font-size: 3rem;
+// Remove the default underline present in anchor tags
   text-decoration: none;
 }
 
 .#{$class}-social {
+  // the ul tag has 100% width. We use display inline-flex
+  //so the container no longer breaks in new line
   display: inline-flex;
+//we use max-width 80 viewport width wich means
+//80% if the width that we can view on the screen
+  max-width: 80vw;
+//if the total width of the children exeeds the availeble
+//width provided by this container break the res of the 
+//content on new line
+  flex-wrap: wrap;
+
 }
 
 .#{$class}-title {
   @extend %uppercase;
   font-size: 2rem;
 }
+
+
+
+
+
+
+
