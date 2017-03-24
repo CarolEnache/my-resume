@@ -14,29 +14,6 @@
     each social, key in resume.author.social
       input(type="radio", name="message-box", id='message-box-id-'+key)
       .home-meggase
-      //- using target attribute with _blank value
-      //- will open the link in a new tab
-      a(href=social.url, target="_blank") #{social.url}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        //- using target attribute with _blank value
+        //- will open the link in a new tab
+        a(href=social.url, target="_blank") #{social.url}

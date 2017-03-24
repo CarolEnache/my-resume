@@ -1,8 +1,7 @@
 {
   "//": "The value of the page property is an object that contains",
   "//": "the page title and description. Those will be used to set",
-  "//": "the page title tag and meta description for SEO purpose"
-  "//"
+  "//": "the page title tag and meta description for SEO purpose",
   "page": {
     "pageTitle": "Welcome to my resume!",
     "pageDescription": "You'll be mesmarized by CarolEnache's resume"
@@ -14,23 +13,18 @@
     "//": "The 'social' property value is an array of objects, ",
     "//": "a collection of objects, and each object has two properties,",
     "//": "will be used to generate the social media link bar,",
-    "social": [
-      {
-        "icon": "google-plus2",
-        "url": "https://plus.google.com/+ZburleaMarian"
-      },
-      {
-        "icon": "facebook2",
-        "url": "https://www.facebook.com/enache.carol"
-      },
-      {
-        "icon": "twiter",
-        "url": "https://twitter.com/EnacheCarol"
-      },
-      {
-        "icon": "github",
-        "url": "https://github.com/CarolEnache?tab=overview&from=2017-01-01&to=2017-01-02"
-      }
-    ]
+    "social": [{
+      "icon": "google-plus2",
+      "url": "https://plus.google.com/+ZburleaMarian"
+    }, {
+      "icon": "facebook2",
+      "url": "https://www.facebook.com/enache.carol"
+    }, {
+      "icon": "twiter",
+      "url": "https://twitter.com/EnacheCarol"
+    }, {
+      "icon": "github",
+      "url": "https://github.com/CarolEnache?tab=overview&from=2017-01-01&to=2017-01-02"
+    }]
   }
 }
