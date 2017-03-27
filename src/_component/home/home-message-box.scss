@@ -56,11 +56,10 @@ input.#{$class}-radio[type=radio]{
   // and enough space on top of it away from social box
   margin-top: 0.5rem;
 }
-
 // Hide the input tyoe radio elements
-.{$class}-link,
+.#{$class}-link,
 .#{$class}-link:visited{
-  font-size: 1,4rem;
+  font-size: 1.4rem;
   // remove the defaukt underline present in anchor tads
   text-decoration: none;
   color: $color-white;
