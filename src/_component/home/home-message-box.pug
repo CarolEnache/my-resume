@@ -22,7 +22,7 @@
     .home-message-box-header
       .home-message-box-info Click to visit linked
         label.home-message-box-close(for="message-default") &times;
-    each social, key in resume.author.social
+    each social, key in resume.section.home.author.social
       input.home-message-radio(type="radio", name="message-box", id='message-box-id-'+key)
       .home-message
         //- using target attribute with _blank value
