@@ -162,7 +162,11 @@ input.#{$class}-radio[type=radio]{
 }
 
 .#{$class}-box-close {
+  // Match the parent container round corner
+  // and use a smaller value to reduce bleeding
   border-bottom-right-radius: 0.4rem;
+  // Set the cursor to pointer so dektop users
+  // will see a hand that suggests interaction is possible
   cursor: pointer;
 
   //Make the action call area (the area that you can tap/click)
