@@ -31,7 +31,7 @@ $class: 'home-message';
   dispaly: none;
 }
 
-.#{$clas}-radio:checked .home-message {
+.#{$class}-radio:checked .home-message {
   // Change display state of the .home-message from
   // hidden to show based on the checked state true
   // of the input type radio

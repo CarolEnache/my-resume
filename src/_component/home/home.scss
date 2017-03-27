@@ -49,11 +49,14 @@ $class: 'home';
 // Remove the default underline present in anchor tags
   text-decoration: none;
   color: $color-white;
+  cursor: pointer;
+
+  &:active,
+  &:focus{
+    color: $color-fiord;
+  }
 }
-&:active,
-&:focus{
-  color: $color-fiord;
-}
+
 
 .#{$class}-social {
 // the ul tag has 100% width. We use display inline-flex
