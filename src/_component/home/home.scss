@@ -7,8 +7,8 @@
 $class: 'home';
 
 // Starting with a percentage sign % instead of . or #
-// will not output this to CSS. The advantage is that 
-//we can call this piece of code using @extend and 
+// will not output this to CSS. The advantage is that
+//we can call this piece of code using @extend and
 //keep our code DRY with out repeating ourself
 
 %uppercase{
@@ -58,12 +58,12 @@ $class: 'home';
 //80% if the width that we can view on the screen
   max-width: 80vw;
 //if the total width of the children exeeds the availeble
-//width provided by this container break the res of the 
+//width provided by this container break the res of the
 //content on new line
   flex-wrap: wrap;
   margin-top: 3rem;
 // set the itmes that break on new lines to be align center
-// it's very similar to text-align: center 
+// it's very similar to text-align: center
   justify-content: center;
 
 }
@@ -73,10 +73,3 @@ $class: 'home';
   font-size: 2rem;
   font-family: 'Open Sans';
 }
-
-
-
-
-
-
-

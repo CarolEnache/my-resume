@@ -1,3 +1,4 @@
+//- CSS TRICK - part 1
 //- We've built the HTML structure and we'll have some fun using "CSS tricks" and create an awesome user interaction experience.
 //- So fare we've built pairs of label and input tags.
 //- Those pairs are linked once the label for attribute value is equal with the input id attribute value.
@@ -8,12 +9,12 @@
 //- Before doing that in the next commit, Ill invite you to play a bit clicking on the social media icons and observe the input turning ino a "checked" state and how it works.
 .home-message-box
   .home-message-body
-    input(type='radio', name="message-box", id="message-default", checked)
+    input.home-message-radio(type='radio', name="message-box", id="message-default", checked)
     //- the default message when no social media is selected
     .home-message Click the above icons to reveal
     each social, key in resume.author.social
-      input(type="radio", name="message-box", id='message-box-id-'+key)
-      .home-meggase
+      input.home-message-radio(type="radio", name="message-box", id='message-box-id-'+key)
+      .home-message
         //- using target attribute with _blank value
         //- will open the link in a new tab
-        a(href=social.url, target="_blank") #{social.url}
+        a.home-message-radio(href=social.url, target="_blank") #{social.url}

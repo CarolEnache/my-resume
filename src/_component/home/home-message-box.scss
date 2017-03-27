@@ -1,0 +1,67 @@
+// CSS TRICK - part 2
+//  This trick works by making use if the change state
+// of the input tyoe radio and the next sibling CSS selector "+"
+// Example:
+  // This will target all unchecked input elements with class .my-input
+  // .my-input {margin-left: 10px;}
+  // This will target all checked inputs elements with class .my-inpit
+  // .my-input:checked{margin-left:20px;}
+// input tyoe radio elements can be grouped by using
+// the name attribute with the same value, this ensuring
+// only one input can be checked at one time
+// HTML example of an input and its sibling
+  // <input type+"radio" id="myCustomUniqueId" />
+  // <p>Label text</p>
+  // #myCustomUniqueId:checked + p {color:blue}
+// The example above will mae the text content inside the paragraph
+// tag of colo blue when the input #myCustomUniqueId is checked.
+
+// Summary:
+// 1. The label linked to the input changes the state of
+// the input when clicked
+// 2. The next siblin of the input can be targeted with
+// different CSS rules base on the checked stateof
+
+
+$class: 'home-message';
+
+.#{class}-radio .home-message{
+  // Hide all .home-message that follow as sibling
+  // an input type radio with checked state as false
+  dispaly: none;
+}
+
+.#{$clas}-radio:checked .home-message {
+  // Change display state of the .home-message from
+  // hidden to show based on the checked state true
+  // of the input type radio
+  display: inherit;
+}
+
+// Hide the input type radio elements to clean interface
+input.#{$class}-radio[type=radio]{
+  display: none;
+}
+
+// Create a rounder corners rectangle
+.#{$class}-body {
+  // that doesn't break on new line
+  display: inline-block;
+  // with white border
+  border:0.2rem solid $color-white;
+  // that rounds the corners
+  border-radius: 0.5rem;
+  // and enough clear space between border and text content
+  padding: 0,8rem;
+  // and enough space on top of it away from social box
+  margin-top: 0.5rem;
+}
+
+// Hide the input tyoe radio elements
+.{$class}-link,
+.#{$class}-link:visited{
+  font-size: 1,4rem;
+  // remove the defaukt underline present in anchor tads
+  text-decoration: none;
+  color: $color-white;
+}
