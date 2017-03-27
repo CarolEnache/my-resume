@@ -138,6 +138,25 @@ input.#{$class}-radio[type=radio]{
   // set text to be centered vertically in its container using line-height
   line-height: 1.5rem;
 }
+// Since we are using position absolute for home-message-box-header,
+// this means the element is behaving like it's no longer present in the
+// dom, so the parent container no longer knows about it and finishes
+// the vertical height a bit earlier the result looks like the box bleeds
+// into the next section:
+// --parent container--------------------
+// |                                     |
+// |  -----Child pos: absolute---        |
+// |  |                          |       |
+// |--|--------------------------|--------
+//  --Next container (section)---|--------
+// |  |                          |       |
+// |  |                          |       |
+// |  ----------------------------       |
+// |                                     |
+// By using the margin botton we move the parent container
+// bottom so the .home-message-box-header looks visually that
+// it's inside the parent container
+
 .#{$class}-box {
   margin-bottom: 3rem;
 }
@@ -149,6 +168,6 @@ input.#{$class}-radio[type=radio]{
   //Make the action call area (the area that you can tap/click)
   // bigger to increase usability
   width: 2.5rem;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
 
 }
