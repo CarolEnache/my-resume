@@ -9,7 +9,7 @@
   "section": {
     "home": {
       "author": {
-        "name": "Marian Zburlea",
+        "name": "Carol Enache",
         "title": "Web Developer",
         "//": "There is no way to create comments in a JSON file and this is close enough",
         "//": "The 'social' property value is an array of objects,",
@@ -17,29 +17,20 @@
         "//": "an icon and an url. The collection and Those properties",
         "//": "will be used to generate the social media link bar.",
         "social": [{
-          "icon": "google-plus2",
-          "url": "https://plus.google.com/+ZburleaMarian"
-        }, {
           "icon": "facebook2",
-          "url": "https://www.facebook.com/marianzburlea"
+          "url": "https://www.facebook.com/enache.carol"
         }, {
           "icon": "twitter",
-          "url": "https://twitter.com/marianzburlea"
-        }, {
-          "icon": "youtube",
-          "url": "https://www.youtube.com/user/zeusul"
+          "url": "https://twitter.com/enachecarol"
         }, {
           "icon": "github",
-          "url": "https://github.com/marianzburlea"
+          "url": "https://github.com/CarolEnache"
         }, {
           "icon": "skype",
-          "url": "skype:marianzburlea?call"
+          "url": "skype:e.carol.?call"
         }, {
           "icon": "linkedin",
-          "url": "https://www.linkedin.com/in/marianzburlea/"
-        }, {
-          "icon": "html-five",
-          "url": "http://bitbee.uk"
+          "url": "https://www.linkedin.com/in/carol-enache-59504294/"
         }]
       }
     }
