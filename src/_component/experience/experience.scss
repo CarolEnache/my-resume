@@ -1,0 +1,5 @@
+$class: 'experience';
+
+.#{$class}-selection-title {
+  @extend %selection-title;
+}
