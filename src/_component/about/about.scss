@@ -19,7 +19,7 @@ $calss: 'about';
   @extend %avatar-common;
 
   // stretch as much as the parent container
-  max-width: 100%;
+  width: 100%;
 
   // set the border to white so it blends with the background
   border: 0.5rem solid $color-white;
