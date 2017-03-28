@@ -11,7 +11,7 @@
       "title": "About me",
       "content": [{
         "type": "avatar",
-        "url": "/asset/image/temporary-photo.jpg"
+        "url": "asset/image/temporary-photo.jpg"
       }, {
         "type": "text",
         "title": "CarolEnache",
