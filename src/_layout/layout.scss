@@ -26,6 +26,10 @@ html, body {
 
 %section-title {
   @extend %noselect;
+}
+
+%section-title {
+  @extend %noselect;
 
   color: $color-periwinkle-gray;
   font-size: 4rem;
