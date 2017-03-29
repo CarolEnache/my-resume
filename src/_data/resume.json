@@ -28,6 +28,26 @@
           "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an. Quidam appareat at est, sit in nominavi periculis, te sit timeam adipiscing. Vero lucilius no mea, error ignota instructior et nam. Fabulas appareat disputationi te sea, has tantas conceptam ex."
         ]
 
+      }, {
+        "type": "card",
+        "title": "Awards",
+        "card": [{
+          "title": "Ei eam dico enim molestie, at qui unum ornatus lucilius. Oratio scripta reformidans mea ad.",
+          "description": "Lorem ipsum dolor sit amet, at vim modo quot rebum. Eu mel dico nihil, summo ignota vituperatoribus mei ad.",
+          "location": "London, UK",
+          "date": "2016"
+        }, {
+          "title": "Best web site",
+          "description": "Lorem ipsum dolor sit amet, at vim modo quot rebum. Eu mel dico nihil, summo ignota vituperatoribus mei ad.",
+          "location": "London, UK",
+          "date": "2017"
+        }]
+      }, {
+        "type": "text",
+        "title": "Achivements",
+        "text": [
+          "Lorem ipsum dolor sit amet, at vim modo quot rebum. Eu mel dico nihil, summo ignota vituperatoribus mei ad. "
+        ]
       }]
     },
     "home": {
