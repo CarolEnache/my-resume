@@ -18,9 +18,9 @@
         each paragraph in content.text
           p.about-paragraph #{paragraph}
           //- Check is it is of card type
-          if content.type === 'card'
-            h2.about-title #{content.title}
-            //- Loop through each of the card collection
-            //- and render as many paragraph as available
-            include about-card
+      if content.type === 'card'
+        h2.about-title #{content.title}
+        //- Loop through each of the card collection
+        //- and render as many paragraph as available
+        include about-card
         
