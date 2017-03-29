@@ -22,9 +22,5 @@
             h2.about-title #{content.title}
             //- Loop through each of the card collection
             //- and render as many paragraph as available
-            each card in content.card
-              .about-card
-                h3 about-card-title #{card.title}
-                p.about-card-description #{card.description}
-                p.about-card-location #{card.location}
-                p.about-card-date #{card.date}
+            include about-card
+        

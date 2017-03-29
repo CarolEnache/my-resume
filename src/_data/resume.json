@@ -8,7 +8,7 @@
   },
   "section": {
     "experience": {
-      "title": "Experience"
+      "title": "experience"
     },
     "about": {
       "title": "about me",
@@ -19,34 +19,27 @@
         "type": "text",
         "title": "Carol Enache",
         "text": [
-          "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an. Quidam appareat at est, sit in nominavi periculis, te sit timeam adipiscing. Vero lucilius no mea, error ignota instructior et nam. Fabulas appareat disputationi te sea, has tantas conceptam ex."
+          "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an"
         ]
-      }, {
-        "type": "text",
-        "title": "Achivement",
-        "text": [
-          "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an. Quidam appareat at est, sit in nominavi periculis, te sit timeam adipiscing. Vero lucilius no mea, error ignota instructior et nam. Fabulas appareat disputationi te sea, has tantas conceptam ex."
-        ]
-
       }, {
         "type": "card",
         "title": "Awards",
         "card": [{
-          "title": "Ei eam dico enim molestie, at qui unum ornatus lucilius. Oratio scripta reformidans mea ad.",
-          "description": "Lorem ipsum dolor sit amet, at vim modo quot rebum. Eu mel dico nihil, summo ignota vituperatoribus mei ad.",
-          "location": "London, UK",
+          "title": "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an",
+          "description": "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an",
+          "location": "London",
           "date": "2016"
         }, {
-          "title": "Best web site",
-          "description": "Lorem ipsum dolor sit amet, at vim modo quot rebum. Eu mel dico nihil, summo ignota vituperatoribus mei ad.",
-          "location": "London, UK",
+          "title": "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an",
+          "description": "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an",
+          "location": "London",
           "date": "2017"
         }]
       }, {
         "type": "text",
-        "title": "Achivements",
+        "title": "Achievements",
         "text": [
-          "Lorem ipsum dolor sit amet, at vim modo quot rebum. Eu mel dico nihil, summo ignota vituperatoribus mei ad. "
+          "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an"
         ]
       }]
     },
