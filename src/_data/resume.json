@@ -8,7 +8,56 @@
   },
   "section": {
     "experience": {
-      "title": "experience"
+      "title": "experience",
+      "content": [{
+        "type": "list",
+        "list": [{
+          "date": "2016 August - present",
+          "jobTitle": "Trainee Web Developer",
+          "company": "Smart Yii Limited",
+          "summary": "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+          "responsability": [
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+          ]
+        }, {
+          "date": "2016 August - present",
+          "jobTitle": "Trainee Web Developer",
+          "company": "Smart Yii Limited",
+          "summary": "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+          "responsability": [
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+          ]
+        }, {
+          "date": "2016 August - present",
+          "jobTitle": "Trainee Web Developer",
+          "company": "Smart Yii Limited",
+          "summary": "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+          "responsability": [
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+            "Lorem ipsum dolor sit amet, at vim modo quot rebum. ",
+          ]
+        }]
+      }]
     },
     "about": {
       "title": "about me",
@@ -41,6 +90,7 @@
         "text": [
           "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an"
         ]
+
       }]
     },
     "home": {
