@@ -37,8 +37,7 @@ $class: 'home-message';
 }
 
 #message-default.#{$class}-radio:checked + .#{$class} + .#{$class}-box-header {
-  // Hide all .home-message that follow as sibling
-  // an input type radio with checked state as false
+  // Hide .home-message-box-header when no link is selected
   display: none;
 }
 

@@ -7,54 +7,55 @@
     "pageDescription": "You'll be mesmarized by Carol Enache's resume"
   },
   "section": {
+    "skill": {
+      "title": "my skils",
+      "content": [{
+        "type": "list",
+        "tittle": "front end",
+        "list": [
+          "Angular 2",
+          "React",
+          "HTML 5",
+          "CSS 3",
+          "Bootstrap",
+          "JavaScript",
+          "SEO",
+          "Jade",
+          "jQuuery",
+          "Angular.js",
+          "Gulp",
+          "Yeoman",
+          "Facebook API",
+          "Twiter API",
+          "Github API",
+          "Google API",
+          "Sass",
+          "Photoshop"
+        ]
+      }, {
+        "type": "list",
+        "title": "back end",
+        "list": [
+          "Git",
+          "JSON",
+          "NodeJS",
+          "PHP",
+          "XML"
+        ]
+      }, {
+        "type": "list",
+        "title": "other",
+        "list": [
+          "Windows",
+          "Mac",
+          "Word",
+          "Excel",
+          "Powerpoint"
+        ]
+      }]
+    },
+
     "experience": {
-      "skill": {
-        "title": "my skils",
-        "content": [{
-          "type": "list",
-          "tittle": "front end",
-          "list": [
-            "Angular 2",
-            "React",
-            "HTML 5",
-            "CSS 3",
-            "Bootstrap",
-            "JavaScript",
-            "SEO",
-            "Jade",
-            "jQuuery",
-            "Angular.js",
-            "Gulp",
-            "Yeoman",
-            "Facebook API",
-            "Twiter API",
-            "Github API",
-            "Google API",
-            "Sass",
-            "Photoshop"
-          ]
-        }, {
-          "type": "list",
-          "title": "back end",
-          "list": [
-            "Git",
-            "JSON",
-            "NodeJS",
-            "PHP",
-            "XML"
-          ]
-        }, {
-          "type": "list",
-          "title": "other",
-          "list": [
-            "Windows",
-            "Mac",
-            "Word",
-            "Excel",
-            "Powerpoint"
-          ]
-        }]
-      },
       "title": "experience",
       "content": [{
         "type": "list",
