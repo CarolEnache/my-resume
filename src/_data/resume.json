@@ -7,11 +7,39 @@
     "pageDescription": "You'll be mesmarized by Carol Enache's resume"
   },
   "section": {
+    "menu": {
+      "action": {
+        "label": "menu",
+        "url": "menu",
+        "icon": "resume-icon-menu3"
+      },
+      "list": [{
+        "label": "home",
+        "url": "home",
+        "icon": "resume-icon-home"
+      }, {
+        "label": "about",
+        "url": "about",
+        "icon": "resume-icon-wondering"
+      }, {
+        "label": "experience",
+        "url": "experience",
+        "icon": "resume-icon-airplane"
+      }, {
+        "label": "skill",
+        "url": "skill",
+        "icon": "resume-icon-hammer"
+      }, {
+        "label": "client",
+        "url": "skill",
+        "icon": "resume-icon-brifcase"
+      }]
+    },
     "skill": {
       "title": "my skils",
       "content": [{
         "type": "list",
-        "tittle": "front end",
+        "title": "front end",
         "list": [
           "Angular 2",
           "React",
@@ -54,7 +82,6 @@
         ]
       }]
     },
-
     "experience": {
       "title": "experience",
       "content": [{
