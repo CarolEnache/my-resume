@@ -138,16 +138,6 @@ $class: 'experience';
   background-color: $color-gumbo;
   border-bottom: none;
 
-  // Show the label of the experience list that can
-  // close the expanded list item
-  .#{$class}-list-close {
-    display: inherit;
-  }
-
-  & > .resume-icon-plus {
-    display: none;
-  }
-
   .resume-icon-plus {
     transform: rotate(45deg);
   }
