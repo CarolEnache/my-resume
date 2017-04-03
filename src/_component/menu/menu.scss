@@ -3,6 +3,13 @@ $class: 'menu';
 .#{$class} {
   // set soem whitespace between content and edges
   @extend %section-container;
+  // make the menu sit on top of the menu call
+  // by using position relative vb position absolute
+  // and setting the background color to white as tith
+  // transparent the menu-call could be seen behind
+  // the menu section
+  position: relative;
+  background-color: $color-white;
 }
 
 .#{$class}-call {
