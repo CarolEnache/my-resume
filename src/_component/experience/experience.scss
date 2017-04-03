@@ -138,6 +138,14 @@ $class: 'experience';
   background-color: $color-gumbo;
   border-bottom: none;
 
+  .#{$class}-list-close {
+    display: inherit;
+  }
+
+  & >.resume-icon-plus {
+    display: none;
+  }
+
   .resume-icon-plus {
     transform: rotate(45deg);
   }
