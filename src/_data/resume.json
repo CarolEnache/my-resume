@@ -15,7 +15,7 @@
         "content-formula.png",
         "direct-line-group.jpg",
         "rma-consulting.png",
-        "Smart-yii.png"
+        "smart-yii.png"
       ]
     },
     "menu": {
@@ -176,7 +176,18 @@
         "text": [
           "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an"
         ]
-
+      }, {
+        "type": "link",
+        "title": "grab cool stuff",
+        "link": [{
+          "url": "https://carolenache.github.io/my-resume/",
+          "icon": "github",
+          "text": "click to visit the GhitHub ptoject source"
+        }, {
+          "url": "asset/doc/CONTRACTS ONLY - resume Carol Enache.docx",
+          "icon": "word",
+          "text": "Click to download the Microsoft Word version"
+        }]
       }]
     },
     "home": {
