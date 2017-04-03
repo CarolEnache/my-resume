@@ -7,6 +7,12 @@
     "pageDescription": "You'll be mesmarized by Carol Enache's resume"
   },
   "section": {
+    "client": {
+      "title": "recent clients",
+      "content": [
+        "Smart-yii.png"
+      ]
+    },
     "menu": {
       "action": {
         "label": "menu",
