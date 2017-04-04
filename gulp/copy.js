@@ -12,13 +12,13 @@ const copy = ({
   taskTarget
 }) => {
   const dir = config.directory;
-  const dest = path.join(tackTarget, dir.asset.replace(/\_/, ''));
+  const dest = path.join(taskTarget, dir.asset.replace(/\_/, ''));
 
   gulp.task('copy', () => {
     return gulp
       .src(path.join(
         dir.source,
-        dir, asset,
+        dir.asset,
         '**/*.{doc,docx}'
       ))
       .pipe(plugins.changed(dest))

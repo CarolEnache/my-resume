@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "my-resume",
-    "lastOpened": 1490043496427,
-    "created": 1490043494279
+    "lastOpened": 1489680404569,
+    "created": 1489680335687
   },
   "iconSets": [{
     "selection": [{
@@ -12278,17 +12278,13 @@
       ],
       "defaultCode": 62176,
       "grid": 14
-    }],
-    "invisible": true
+    }]
   }, {
     "selection": [{
       "ligatures": "home, house",
       "name": "home",
       "id": 0,
-      "order": 24,
-      "prevSize": 32,
-      "code": 59648,
-      "tempChar": ""
+      "order": 0
     }, {
       "ligatures": "home2, house2",
       "name": "home2",
@@ -12668,10 +12664,7 @@
       "ligatures": "map2, guide2",
       "name": "map2",
       "id": 76,
-      "order": 19,
-      "prevSize": 32,
-      "code": 59724,
-      "tempChar": ""
+      "order": 0
     }, {
       "ligatures": "history, time",
       "name": "history",
@@ -12706,10 +12699,7 @@
       "ligatures": "calendar, date",
       "name": "calendar",
       "id": 83,
-      "order": 21,
-      "prevSize": 32,
-      "code": 59731,
-      "tempChar": ""
+      "order": 0
     }, {
       "ligatures": "printer, print",
       "name": "printer",
@@ -13044,10 +13034,7 @@
       "ligatures": "hammer, tool2",
       "name": "hammer",
       "id": 150,
-      "order": 27,
-      "prevSize": 32,
-      "code": 59798,
-      "tempChar": ""
+      "order": 0
     }, {
       "ligatures": "magic-wand, wizard",
       "name": "magic-wand",
@@ -13087,10 +13074,7 @@
       "ligatures": "trophy, cup",
       "name": "trophy",
       "id": 158,
-      "order": 20,
-      "prevSize": 32,
-      "code": 59806,
-      "tempChar": ""
+      "order": 0
     }, {
       "ligatures": "gift, present",
       "name": "gift",
@@ -13170,18 +13154,12 @@
       "ligatures": "briefcase, portfolio",
       "name": "briefcase",
       "id": 174,
-      "order": 28,
-      "prevSize": 32,
-      "code": 59822,
-      "tempChar": ""
+      "order": 0
     }, {
       "ligatures": "airplane, travel",
       "name": "airplane",
       "id": 175,
-      "order": 30,
-      "prevSize": 32,
-      "code": 59823,
-      "tempChar": ""
+      "order": 0
     }, {
       "ligatures": "truck, transit",
       "name": "truck",
@@ -13261,10 +13239,7 @@
       "ligatures": "menu3, options3",
       "name": "menu3",
       "id": 191,
-      "order": 23,
-      "prevSize": 32,
-      "code": 59839,
-      "tempChar": ""
+      "order": 0
     }, {
       "ligatures": "menu4, options4",
       "name": "menu4",
@@ -13319,10 +13294,7 @@
       "ligatures": "earth, globe2",
       "name": "earth",
       "id": 202,
-      "order": 29,
-      "prevSize": 32,
-      "code": 59850,
-      "tempChar": ""
+      "order": 0
     }, {
       "ligatures": "link, chain",
       "name": "link",
@@ -13567,10 +13539,7 @@
       "ligatures": "wondering, emoticon29",
       "name": "wondering",
       "id": 251,
-      "order": 25,
-      "prevSize": 32,
-      "code": 59899,
-      "tempChar": ""
+      "order": 0
     }, {
       "ligatures": "wondering2, emoticon30",
       "name": "wondering2",
@@ -13645,10 +13614,7 @@
       "ligatures": "plus, add",
       "name": "plus",
       "id": 266,
-      "order": 31,
-      "prevSize": 32,
-      "code": 59914,
-      "tempChar": ""
+      "order": 0
     }, {
       "ligatures": "minus, subtract",
       "name": "minus",
@@ -13658,10 +13624,7 @@
       "ligatures": "info, information",
       "name": "info",
       "id": 268,
-      "order": 22,
-      "prevSize": 32,
-      "code": 59916,
-      "tempChar": ""
+      "order": 0
     }, {
       "ligatures": "cancel-circle, close",
       "name": "cancel-circle",
@@ -14304,7 +14267,7 @@
       "order": 13,
       "prevSize": 32,
       "code": 60044,
-      "tempChar": ""
+      "tempChar": ""
     }, {
       "ligatures": "google-plus3, brand7",
       "name": "google-plus3",
@@ -14332,7 +14295,7 @@
       "order": 12,
       "prevSize": 32,
       "code": 60049,
-      "tempChar": ""
+      "tempChar": ""
     }, {
       "ligatures": "instagram, brand12",
       "name": "instagram",
@@ -14360,7 +14323,7 @@
       "order": 8,
       "prevSize": 32,
       "code": 60054,
-      "tempChar": ""
+      "tempChar": ""
     }, {
       "name": "vine",
       "ligatures": "vine, brand17",
@@ -14398,7 +14361,7 @@
       "order": 9,
       "prevSize": 32,
       "code": 60061,
-      "tempChar": ""
+      "tempChar": ""
     }, {
       "ligatures": "youtube2, brand22",
       "name": "youtube2",
@@ -14496,7 +14459,7 @@
       "order": 16,
       "prevSize": 32,
       "code": 60080,
-      "tempChar": ""
+      "tempChar": ""
     }, {
       "name": "npm",
       "ligatures": "npm, brand41",
@@ -14604,7 +14567,7 @@
       "order": 15,
       "prevSize": 32,
       "code": 60101,
-      "tempChar": ""
+      "tempChar": ""
     }, {
       "ligatures": "reddit, brand61",
       "name": "reddit",
@@ -14627,7 +14590,7 @@
       "order": 11,
       "prevSize": 32,
       "code": 60105,
-      "tempChar": ""
+      "tempChar": ""
     }, {
       "ligatures": "linkedin2, brand65",
       "name": "linkedin2",
@@ -14753,7 +14716,10 @@
       "ligatures": "file-word, file12",
       "name": "file-word",
       "id": 481,
-      "order": 0
+      "order": 17,
+      "prevSize": 32,
+      "code": 60129,
+      "tempChar": ""
     }, {
       "ligatures": "file-excel, file13",
       "name": "file-excel",
@@ -14771,7 +14737,7 @@
       "order": 14,
       "prevSize": 32,
       "code": 60132,
-      "tempChar": ""
+      "tempChar": ""
     }, {
       "ligatures": "html-five2, w3c2",
       "name": "html-five2",
@@ -22783,6 +22749,7 @@
       "grid": 16
     }]
   }],
+  "uid": -1,
   "preferences": {
     "showGlyphs": true,
     "showCodes": true,
@@ -22819,6 +22786,5 @@
       "bgColor": 16777215
     },
     "historySize": 100
-  },
-  "uid": -1
+  }
 }
