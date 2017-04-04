@@ -9,7 +9,7 @@ $class: 'skill';
   @extend %section-title;
 }
 
-#{$class}-title {
+.#{$class}-title {
   font-size: 3rem;
   text-align: center;
   color: $color-fiord;
