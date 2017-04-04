@@ -8,6 +8,7 @@ $class: 'note';
   right: 1rem;
   background-color: $color-fiord;
   color: $color-white;
+  border: 0.1rem solid $color-white;
   border-radius: 0.3rem;
   padding: 0.5rem;
 }
@@ -25,15 +26,15 @@ $class: 'note';
   display: none;
 }
 
-.#{$class}-togglr-checkbox {
+.#{$class}-toggle-checkbox {
   display: none;
 }
 
-.#{$class}-togglr-checkbox:checked + .#{$class} {
+.#{$class}-toggle-checkbox:checked + .#{$class} {
   top: -100%;
 }
 
-.#{$class}-togglr-checkbox:checked + .#{$class} + .#{$class}-label {
+.#{$class}-toggle-checkbox-checkbox:checked + .#{$class} + .#{$class}-label {
   .#{$class}-label-no {
     display: none;
   }
@@ -62,7 +63,7 @@ $class: 'note';
   list-style-type: disc;
 }
 
-@madia all and (orientation: landscape) {
+@media all and (orientation: landscape) {
   .#{$class}-label {
     display: inherit;
   }
