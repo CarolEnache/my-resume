@@ -1,6 +1,6 @@
 $class: 'note';
 
-.#{$class}-lable {
+.#{$class}-label {
   @extend %noselect;
   display: none;
   position: fixed;
@@ -34,7 +34,7 @@ $class: 'note';
   top: -100%;
 }
 
-.#{$class}-toggle-checkbox-checkbox:checked + .#{$class} + .#{$class}-label {
+.#{$class}-toggle-checkbox:checked + .#{$class} + .#{$class}-label {
   .#{$class}-label-no {
     display: none;
   }
@@ -67,6 +67,7 @@ $class: 'note';
   .#{$class}-label {
     display: inherit;
   }
+
   .#{$class} {
     position: fixed;
     display: flex;
