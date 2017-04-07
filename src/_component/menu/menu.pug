@@ -5,7 +5,7 @@
   ul.menu-list
     each menuItem in section.menu.list
       li.menu-list-item
-        a.menu-list-link(href='#${menuItem.url}')
+        a.menu-list-link(href=`#${menuItem.url}`)
           span(class=menuItem.icon)
           span #{menuItem.label}
 #menu
