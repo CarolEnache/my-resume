@@ -42,12 +42,12 @@ $class: 'about';
   margin: 1rem auto;
 
   // and set the color to contrast with the background
-  border:0.5rem solid $color-gumbo;
+  border:0.5rem solid $color-blue-zodiac;
 }
 
 .#{$class}-title {
   // set the color to contrast the background
-  color: $color-gumbo;
+  color: $color-blue-zodiac;
   // and a slightly bigger font size value
   font-size: 2.5rem;
   // and align it to center

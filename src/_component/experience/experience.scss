@@ -16,14 +16,14 @@ $class: 'experience';
   // and create some white space between text and margins
   padding: 1.5rem;
   // and set the background colour
-  background-color: $color-lily;
+  background-color: $color-blue-zodiac;
   // and set the text color to be in contrast with the color-lily
   // of the background
   color: $color-white;
   // and show the hand cursor to suggest interaction
   cursor: pointer;
   // and set the border bottom
-  border-bottom: 0.1rem solid darken($color-lily, 10);
+  border-bottom: 0.1rem solid darken($color-blue-zodiac, 10);
 
   // and remove the border from the last occurence
   &:last-of-type {
@@ -103,11 +103,11 @@ $class: 'experience';
   // Alternate background colour using even and odd
   // parameters of nth-child pseudo selector
   &:nth-child(odd) {
-    background-color: lighten($color-almond, 10%);
+    background-color: lighten($color-malibu, 10%);
   }
 
   &:nth-child(even) {
-    background-color: lighten($color-lily, 10%);
+    background-color: lighten($color-denim, 10%);
   }
 }
 
@@ -135,7 +135,7 @@ $class: 'experience';
 .#{$class}-list-radio:checked + .#{$class}-list-header {
   // change the clour of the background for the selected
   // header experience
-  background-color: $color-gumbo;
+  background-color: $color-danube;
   border-bottom: none;
 
   .#{$class}-list-close {
