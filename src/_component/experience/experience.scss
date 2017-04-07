@@ -165,5 +165,5 @@ $class: 'experience';
 // the .body div that follows the input with checked state.
 .#{$class}-list-radio:checked + .#{$class}-list-header + .#{$class}-list-body {
   max-height: 300rem;
-  border: 0.1rem solid darken($color-gumbo, 10);
+  border: 0.1rem solid darken($color-blue-zodiac, 10);
 }

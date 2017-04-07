@@ -6,7 +6,7 @@ $class: 'note';
   position: fixed;
   top: 1rem;
   right: 1rem;
-  background-color: $color-fiord;
+  background-color: $color-malibu;
   color: $color-white;
   border: 0.1rem solid $color-white;
   border-radius: 0.3rem;
@@ -78,7 +78,7 @@ $class: 'note';
     height: 100%;
     top:0;
     left: 0;
-    background-image: radial-gradient(ellipse, $color-manatee, $color-fiord);
+    background-image: radial-gradient(ellipse, $color-malibu, $color-blue-zodiac);
     color: $color-white;
   }
 }

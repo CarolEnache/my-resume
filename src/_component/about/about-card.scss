@@ -1,7 +1,7 @@
 $class: 'about-card';
 .#{$class} {
   border-radius: 1rem;
-  border: 0.1rem solid $color-fiord;
+  border: 0.1rem solid $color-blue-zodiac;
   margin-bottom: 1rem;
 
   // select all the resume-icons span elements
@@ -35,7 +35,7 @@ $class: 'about-card';
 .#{$class}-location,
 .#{$class}-date {
   // match the style of the parent elemnt
-  border-bottom: 0.1rem solid $color-fiord;
+  border-bottom: 0.1rem solid $color-blue-zodiac;
   // set the text to be centered
   text-align: center;
   // allow some whitespace in each about-card child
