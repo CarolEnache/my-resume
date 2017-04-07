@@ -160,12 +160,8 @@
         "type": "text",
         "title": "Portfolio",
         "text": [
-          "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an"
+          "To find out more about my work and research, please visit my blog."
         ]
-      }, {
-        "type": "card",
-        "title": "my blog",
-        "url": "https://www.w3schools.com/"
       }, {
         "type": "text",
         "title": "Achievements",
