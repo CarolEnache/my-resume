@@ -157,19 +157,15 @@
           "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an"
         ]
       }, {
+        "type": "text",
+        "title": "Portfolio",
+        "text": [
+          "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an"
+        ]
+      }, {
         "type": "card",
-        "title": "Awards",
-        "card": [{
-          "title": "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an",
-          "description": "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an",
-          "location": "London",
-          "date": "2016"
-        }, {
-          "title": "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an",
-          "description": "Lorem ipsum dolor sit amet, mel id clita repudiandae, eos purto minim neglegentur an",
-          "location": "London",
-          "date": "2017"
-        }]
+        "title": "my blog",
+        "url": "https://www.w3schools.com/"
       }, {
         "type": "text",
         "title": "Achievements",
