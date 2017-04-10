@@ -154,7 +154,7 @@
         "type": "text",
         "title": "Carol Enache",
         "text": [
-          "An ambitious and highly motivated Web Developer who wants to progress further. I am a team player that has a desire to create great user experiences, demonstrate analytical thinking, and have excellent communication skills I have a passion for technology and I am keen on progress."
+          "An ambitious and highly motivated Web Developer who wants to progress further. I am a team player that has a desire to create great user experiences, demonstrate analytical thinking and have excellent communication skills. I have a passion for technology and I am keen on progress."
         ]
       }, {
         "type": "text",
@@ -172,12 +172,12 @@
         "type": "link",
         "title": "grab cool stuff",
         "link": [{
-          "url": "https://carolenache.github.io/my-resume/",
+          "url": "https://github.com/CarolEnache/my-resume",
           "icon": "github",
-          "text": "click to visit the GhitHub ptoject source"
+          "text": "Click to visit the GhitHub ptoject source"
         }, {
-          "url": "asset/doc/CONTRACTS ONLY - resume Carol Enache.docx",
-          "icon": "word",
+          "url": "asset/doc/cv.pdf",
+          "icon": "file-word",
           "text": "Click to download the Microsoft Word version"
         }]
       }]

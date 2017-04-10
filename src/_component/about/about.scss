@@ -23,11 +23,13 @@ $class: 'about';
   border:0.1rem solid $color-blue-zodiac;
   color: $color-danube;
   padding: 1rem auto;
+  width: 80%;
+  margin: 1rem auto;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
   font-size: 3rem;
-  border-radius:0.3rem;
+  border-radius:0.6rem;
   text-decoration: none;
 }
 
@@ -38,7 +40,7 @@ $class: 'about';
 .#{$class}-link-description {
   text-align: center;
   font-size: 1.5rem;
-  line-height: 1.5
+  line-height: 2;
 }
 .#{$class}-avatar {
   // apply circle shape and display block
