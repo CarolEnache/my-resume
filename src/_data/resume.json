@@ -163,6 +163,13 @@
           "To find out more about my work and research, please visit my blog."
         ]
       }, {
+        "type": "link",
+        "link": [{
+          "url": "https://www.w3schools.com/",
+          "text": "Click to visit the Blog page",
+          "icon": "rss-square"
+        }]
+      }, {
         "type": "text",
         "title": "Achievements",
         "text": [
